@@ -9,7 +9,8 @@ button {
 }
 
 body {
-  background-color: #121214;
+  background-color: #4F24AC;
+  font-size: 100%;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -17,10 +18,12 @@ body {
   align-items: center;
 }
 .conteiner {
-  background-color: #121214;
-  width: 90%;
+  /*background-color: #121214;*/
+  /*background-image: url(./imagens/giphy.gif);*/
+  background-color: #FFFFFF;
+  width: 100%;
   max-width: 880px;
-  border: 2px solid #e1e1e6;
+  border: 2px solid #FFFFFF;
   border-radius: 6px;
   padding: 16px;
   box-shadow: 0 0 2px 2px;
@@ -37,9 +40,11 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 24px;
-  font-size: 20px;
+  padding-top: 40px;
+  font-family: 'Righteous', cursive;
+  color: black;
+  font-size: 22px;
   text-align: center;
-  color: #e1e1e6; 
 }
 
 .autor-info {
@@ -47,55 +52,62 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 300px;
+  height: 200px;
   
 }
 
 .quote {
   position: relative;
-  padding-left: 22px;
+  padding-left: 30px;
   margin: 200px 0;
+  font-family: 'Righteous', cursive;
+  color: black;
   font-size: 24px;
-  font-weight: bold;
+  
   text-align: center;
+  
 }
+
 .quote:before {
   content: '\201C'; /* Código Unicode para o símbolo de aspas duplas */
   position: absolute;
   left: 5px;
-  top: -20px;
-  font-size: 48px;
+  top: -10px;
+  font-size: 40px;
   line-height: 1;
 }
+
 cite {
   display: block;
   margin-top: 10px;
   font-style: italic;
+  font-family: 'Righteous', cursive;
 }
 .img-autor {
-  width: 200px;
-  height: 300px;
-  border-radius: 30%;
+  width: 500px;
+  height: 200px;
 }
 .answers-conteiner {
   width: 100%;
   display: grid;
   gap: 10px;
+  
 }
 
 .button {
-  /*background-color: #4863f7;*/
-  background-color: #CF6567;
-  color: #e1e1e6;
+  background-color: #4F24AC;
+  font-family: 'Righteous', cursive;
+  color: #000;
   font-size: 15px;
-  font-weight: 300;
-  border: 0;
-  border-radius: 15px;
+  border: none;
+  border-radius: 16px;
   height: 45px;
   padding: 0;
   transition: filter 0.2s;
+  
 }
 
 .button:hover {
-  filter: brightness(0.8);
+  filter: brightness(0.9);
+
 }

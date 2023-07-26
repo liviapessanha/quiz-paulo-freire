@@ -10,6 +10,8 @@ button {
 
 body {
   background-color: #4F24AC;
+  /*background-color: #F66149;*/
+  background-size: 100px;
   font-size: 100%;
   color: #fff;
   height: 100vh;
@@ -19,14 +21,12 @@ body {
 }
 .conteiner {
   /*background-color: #121214;*/
-  /*background-image: url(./imagens/giphy.gif);*/
   background-color: #FFFFFF;
   width: 100%;
   max-width: 880px;
-  border: 2px solid #FFFFFF;
-  border-radius: 6px;
-  padding: 16px;
-  box-shadow: 0 0 2px 2px;
+  border: 5px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,6 +45,7 @@ body {
   color: black;
   font-size: 22px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .autor-info {
@@ -53,17 +54,16 @@ body {
   align-items: center;
   text-align: center;
   height: 200px;
-  
+  margin-bottom: 10px;
 }
 
 .quote {
   position: relative;
-  padding-left: 30px;
+  padding-left: 10px;
   margin: 200px 0;
   font-family: 'Righteous', cursive;
   color: black;
   font-size: 24px;
-  
   text-align: center;
   
 }
@@ -71,7 +71,7 @@ body {
 .quote:before {
   content: '\201C'; /* Código Unicode para o símbolo de aspas duplas */
   position: absolute;
-  left: 5px;
+  left: 2px;
   top: -10px;
   font-size: 40px;
   line-height: 1;
@@ -96,14 +96,16 @@ cite {
 
 .button {
   background-color: #4F24AC;
+  /*background-color: #D66852;*/
   font-family: 'Righteous', cursive;
   color: #000;
   font-size: 15px;
   border: none;
   border-radius: 16px;
   height: 45px;
-  padding: 0;
+  padding: 5px;
   transition: filter 0.2s;
+  
   
 }
 
@@ -111,3 +113,11 @@ cite {
   filter: brightness(0.9);
 
 }
+
+/*.button.answer.button.wrong{
+  background-color: #3ad62f;
+}*/
+
+/*.button.answer.button.right{
+  background-color: #3ad62f;
+}*/
